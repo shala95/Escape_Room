@@ -1,33 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-using UnityEngine;
 
 public class ScoreManager : MonoBehaviour
 {
     public static int globalScore = 0; // Questa è la variabile globale del punteggio
-    public static bool premuto = false; // Questa è la variabile globale che tiene traccia se il bottone è stato premuto
 
-    public void OnButtonClick(string buttonName)
+    public void OnButtonClick(string input)
     {
-        if (!premuto)
-        {
-            if (buttonName == "Never")
+        
+            if (input.Contains("Never"))
             {
                 globalScore += 3;
             }
-            else if (buttonName == "SomeDay")
+            else if (input.Contains("SomeDay"))
             {
                 globalScore += 2;
             }
-            else if (buttonName == "Always")
+            else if (input.Contains("Always"))
             {
                 globalScore += 1;
             }
 
-            premuto = true; // Imposta "premuto" su true dopo aver premuto il bottone
-        }
+        
+
+        SceneManager.LoadScene(input.Split(" ")[1]); //this code splits the string at the space and returns the scene name
     }
 }
 
