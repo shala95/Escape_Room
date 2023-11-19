@@ -13,7 +13,7 @@ public class ScoreManager : MonoBehaviour
         
             if (input.Contains("Never"))
             {
-                globalScore += 3;
+                globalScore += 1;
             }
             else if (input.Contains("SomeDay"))
             {
@@ -21,7 +21,7 @@ public class ScoreManager : MonoBehaviour
             }
             else if (input.Contains("Always"))
             {
-                globalScore += 1;
+                globalScore += 3;
             }
 
         
