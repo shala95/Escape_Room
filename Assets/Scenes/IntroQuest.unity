@@ -306,7 +306,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 750}
+  m_AnchoredPosition: {x: 0, y: 848}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &695064101
@@ -329,10 +329,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Benvenuto in Cave Escape!! Riscalda i muscoli perch\xE9 dovrai arrampicarti
-    sulle pareti di caverne piene di insidie, a caccia di monete che ti permetteranno
-    di risalire in superficie. Ma attenzione, la tua forza non dura per sempre. \nPerci\xF2...che
-    aspetti!!"
+  m_text: "Before we start, we would like to ask you some questions. \nAnswer them
+    to personalize your game\_experience."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
