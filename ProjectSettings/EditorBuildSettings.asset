@@ -15,9 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Quest1.unity
     guid: 811f81c551e147d449c9191f5df6d484
   - enabled: 1
-    path: Assets/Scenes/Level_1old.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Scenes/Quest2.unity
     guid: ef6a0efa92ee1bd41b7324c5e1b59e64
   - enabled: 1
@@ -29,5 +26,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/IntroQuest.unity
     guid: f9db38b9b7f1f534da22882534213957
+  - enabled: 1
+    path: Assets/Scenes/Level_2.unity
+    guid: f3005a70e340fe94f9a36abfa99b737f
+  - enabled: 1
+    path: Assets/Scenes/Level_1.unity
+    guid: f78c07c65f545864c9708df59baa44ed
+  - enabled: 1
+    path: Assets/Scenes/Level_3.unity
+    guid: b28070d074036cf4c878a46befb24b27
+  - enabled: 1
+    path: Assets/Scenes/Quest4.unity
+    guid: d688ca380cba6e44889f45dc0857f509
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
