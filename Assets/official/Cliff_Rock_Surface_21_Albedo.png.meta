@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cliff_Rock_Surface_21_Albedo_0: -7515021943898258187
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

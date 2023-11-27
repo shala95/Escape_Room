@@ -1,15 +1,26 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
-{
+{   
+    public Timer timer ;
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
     private Vector2 moveDirection;
+    public string nextScene;
+
+    void Start()
+    {
+        timer.SetDuration(20).Begin();    
+    }
 
     // Update is called once per frame
     void Update()
     {
         ProcessInputs();
+        if (timer.remainingDuration<=0){
+            SceneManager.LoadScene(nextScene); 
+        }
     }
 
     // FixedUpdate is called once per physics update

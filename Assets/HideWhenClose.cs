@@ -10,6 +10,7 @@ public class HideWhenClose : MonoBehaviour
 
     void Start()
     {
+        globalCoins=0;
         // Get the Renderer component of the object
         objectRenderer = GetComponent<Renderer>();
     }
