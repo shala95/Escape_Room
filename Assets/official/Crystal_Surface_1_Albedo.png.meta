@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Crystal_Surface_1_Albedo_0: 7000038484195911286
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

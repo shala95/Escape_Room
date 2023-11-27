@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Forest_Ground_38_Albedo_0: 583216225758609020
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

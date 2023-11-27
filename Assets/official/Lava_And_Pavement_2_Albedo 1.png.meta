@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lava_And_Pavement_2_Albedo 1_0: -3215073867195415527
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

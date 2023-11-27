@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Underwater_Rock_Surface_3_Albedo_0: -204097898958550721
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
