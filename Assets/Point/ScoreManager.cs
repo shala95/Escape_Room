@@ -11,15 +11,19 @@ public class ScoreManager : MonoBehaviour
     public void OnButtonClick(string input)
     {
         
-        if (input.Contains("Never"))
+        if (input.Contains("NotAtAll"))
+        {
+            globalScore += 0;
+        }
+        else if (input.Contains("SeveralDays"))
         {
             globalScore += 1;
         }
-        else if (input.Contains("SomeDay"))
+        else if (input.Contains("MoreThenHalfTheDays"))
         {
             globalScore += 2;
         }
-        else if (input.Contains("Always"))
+        else if (input.Contains("NearlyEveryDay"))
         {
             globalScore += 3;
         }

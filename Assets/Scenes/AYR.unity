@@ -630,7 +630,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'ARE YOU READY?
+  m_text: 'WELLDONE!
+
+    ARE YOU READY?
 
     GO!
 
