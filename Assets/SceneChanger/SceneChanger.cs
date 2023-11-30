@@ -8,6 +8,8 @@ public class SceneChanger : MonoBehaviour
     public void ChangeScene(string sceneName)
 	{
 		SceneManager.LoadScene (sceneName);
+		MusicManager musicManager = Object.FindAnyObjectByType<MusicManager>();
+		DontDestroyOnLoad(musicManager.gameObject);
 	}
 	public void Exit()
 	{
