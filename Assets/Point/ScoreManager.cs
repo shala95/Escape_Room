@@ -16,7 +16,7 @@ public class ScoreManager : MonoBehaviour
             globalScore += 0;
         }
         else if (input.Contains("SeveralDays"))
-        {
+        { 
             globalScore += 1;
         }
         else if (input.Contains("MoreThenHalfTheDays"))

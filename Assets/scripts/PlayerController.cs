@@ -8,10 +8,11 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D rb;
     private Vector2 moveDirection;
     public string nextScene;
+    public int remainingDuration ;
 
     void Start()
     {
-        timer.SetDuration(20).Begin();    
+        timer.SetDuration(remainingDuration).Begin();    
     }
 
     // Update is called once per frame

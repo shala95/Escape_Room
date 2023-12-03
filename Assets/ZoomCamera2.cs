@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ZoomCamera : MonoBehaviour
+public class ZoomCamera2 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -10,12 +10,12 @@ public class ZoomCamera : MonoBehaviour
         Camera camera = GetComponent<Camera>();
         int score = ScoreManager.globalScore;
 
-        if (score <= 3) {
-            camera.orthographicSize = 4.5f;
-        } else if (score <= 6) {
-            camera.orthographicSize = 3f;
+        if (score <= 2) {
+            camera.orthographicSize = 3f;//3
+        } else if (score <= 5) {
+            camera.orthographicSize = 6f;
         } else {
-            camera.orthographicSize = 1f;
+            camera.orthographicSize = 5f;
         }
     }
 

@@ -6,7 +6,11 @@ using UnityEngine.SceneManagement;
 public class SceneChanger : MonoBehaviour
 {
     public void ChangeScene(string sceneName)
-	{
+	{	
+		if(sceneName=="Mainpage")
+		{
+			ScoreManager.globalScore=0;
+		}	
 		SceneManager.LoadScene (sceneName);
 		MusicManager musicManager = Object.FindAnyObjectByType<MusicManager>();
 		

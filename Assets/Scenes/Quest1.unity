@@ -320,7 +320,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: MoreThenHalfTheDays
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &271647611
@@ -745,7 +745,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: NearlyEveryDay
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &614776732
@@ -878,7 +878,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: NotAtAll
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &714646059
@@ -928,7 +928,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 714646056}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f69babc6ed71e234aa72e843a8f7aad5, type: 3}
+  m_Script: {fileID: 11500000, guid: 0741f38ccbcb4474e92b38c4addfdd0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1179536454
@@ -1115,7 +1115,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: SeveralDays
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1413228826

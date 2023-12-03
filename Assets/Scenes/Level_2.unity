@@ -11914,6 +11914,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -12002,9 +12003,21 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cb398564e4975472fad7d93c5ff22155, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &519420034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53c9d1a20975e4837ba013084d3477f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &522481518
@@ -17400,7 +17413,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4263777556291661471, guid: fa09063cb66bc44788d9c89408ddf61c, type: 3}
       propertyPath: remainingDuration
-      value: 30
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22476,7 +22489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b6d282c0ccd45ef97489c6a867c253, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: Level_3
+  nextScene: ChangeScene23
   maxCoins: 45
 --- !u!114 &960533395
 MonoBehaviour:
@@ -34389,6 +34402,7 @@ GameObject:
   - component: {fileID: 1423964322}
   - component: {fileID: 1423964321}
   - component: {fileID: 1423964323}
+  - component: {fileID: 1423964324}
   m_Layer: 0
   m_Name: climber
   m_TagString: Untagged
@@ -34477,9 +34491,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: {fileID: 770600907}
-  moveSpeed: 5
+  moveSpeed: 7
   rb: {fileID: 1423964322}
-  nextScene: Level_3
+  nextScene: ChangeScene23Failed
+  remainingDuration: 50
 --- !u!50 &1423964322
 Rigidbody2D:
   serializedVersion: 4
@@ -34553,6 +34568,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 5, y: 3.5}
   m_EdgeRadius: 0
+--- !u!114 &1423964324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423964318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61b6d282c0ccd45ef97489c6a867c253, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextScene: ChangeScene23
+  maxCoins: 0
 --- !u!1 &1431116965
 GameObject:
   m_ObjectHideFlags: 0

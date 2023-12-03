@@ -22627,7 +22627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b6d282c0ccd45ef97489c6a867c253, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: Level_2
+  nextScene: ChangeScene12
   maxCoins: 45
 --- !u!114 &960533395
 MonoBehaviour:
@@ -34294,7 +34294,8 @@ MonoBehaviour:
   timer: {fileID: 530516189}
   moveSpeed: 5
   rb: {fileID: 1423964322}
-  nextScene: Level_2
+  nextScene: ChangeScene12Failed
+  remainingDuration: 50
 --- !u!50 &1423964322
 Rigidbody2D:
   serializedVersion: 4
@@ -53271,6 +53272,10 @@ PrefabInstance:
     - target: {fileID: 4122485294845078060, guid: fa09063cb66bc44788d9c89408ddf61c, type: 3}
       propertyPath: m_Name
       value: Timer Ui
+      objectReference: {fileID: 0}
+    - target: {fileID: 4263777556291661471, guid: fa09063cb66bc44788d9c89408ddf61c, type: 3}
+      propertyPath: remainingDuration
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -24,7 +24,7 @@ public class CoinsCount : MonoBehaviour
         if (HideWhenClose.globalCoins >= maxCoins) {
             textMesh.text = "Well done! You finished all the coins";
             //we should add delay here 
-            SceneManager.LoadScene("");
+            SceneManager.LoadScene(nextScene);
         }
     }
 }
