@@ -11,6 +11,8 @@ public class HideWhenClose : MonoBehaviour
     public bool increaseTime=false;
     public bool zoomOut=false;
 
+    public bool isCoin=true;
+
     public ZoomCamera zoomCamera;
 
     public Timer timer;
@@ -31,7 +33,9 @@ public class HideWhenClose : MonoBehaviour
             // If within the hide distance, hide the object
             if (objectRenderer.enabled){
                 objectRenderer.enabled = false;
-                globalCoins++;
+                if(isCoin){
+                    globalCoins++;
+                }
                 if (increaseTime)  {
                     timer.remainingDuration += 5;
                 }

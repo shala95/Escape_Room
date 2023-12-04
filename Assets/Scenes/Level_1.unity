@@ -354,6 +354,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &19501846
@@ -2152,6 +2153,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &131570037
@@ -2415,6 +2417,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &143998494
@@ -4700,6 +4703,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &233515578
@@ -5853,6 +5857,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &269374263
@@ -6173,6 +6178,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &288248347
@@ -6409,6 +6415,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &299685296
@@ -7908,6 +7915,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &361578351
@@ -10444,6 +10452,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &463818467
@@ -10811,6 +10820,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &482220801
@@ -12352,6 +12362,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &548891186
@@ -15788,6 +15799,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &696503153
@@ -15977,6 +15989,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &706059696
@@ -18084,6 +18097,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &792288097
@@ -20584,6 +20598,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &896095138
@@ -21952,6 +21967,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &937837670
@@ -22529,7 +22545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: ChangeScene12
-  maxCoins: 45
+  maxCoins: 42
 --- !u!114 &960533395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23207,6 +23223,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &986061232
@@ -23312,6 +23329,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &987313838
@@ -23417,6 +23435,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &1002877873
@@ -24067,6 +24086,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &1038130167
@@ -24565,6 +24585,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &1051394013
@@ -26766,6 +26787,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &1121140318
@@ -27657,6 +27679,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &1159705605
@@ -27893,6 +27916,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &1166499524
@@ -32599,6 +32623,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &1348973192
@@ -33789,6 +33814,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &1406654133
@@ -34025,6 +34051,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &1416021327
@@ -36181,6 +36208,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &1512352308
@@ -38204,6 +38232,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &1584266424
@@ -39488,6 +39517,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &1628776292
@@ -41202,6 +41232,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &1655641184
@@ -43272,6 +43303,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &1720595461
@@ -44032,6 +44064,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &1761875622
@@ -45124,6 +45157,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &1808050505
@@ -47325,6 +47359,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &1879249930
@@ -48038,6 +48073,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &1932395545
@@ -48704,6 +48740,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &1952994734
@@ -50240,6 +50277,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &2013564663
@@ -50607,6 +50645,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &2020297000
@@ -52195,6 +52234,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &2118786655
@@ -52300,6 +52340,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &2119463190
@@ -52751,6 +52792,7 @@ MonoBehaviour:
   increaseSpeed: 0
   increaseTime: 0
   zoomOut: 0
+  isCoin: 1
   zoomCamera: {fileID: 0}
   timer: {fileID: 0}
 --- !u!1 &2136698715
@@ -53320,6 +53362,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 530516189}
     - target: {fileID: 598008041269093768, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
+      propertyPath: isCoin
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 598008041269093768, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 1423964320}
@@ -53364,6 +53410,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2718979736325781358, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
+      propertyPath: isCoin
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2718979736325781358, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 1423964320}
@@ -53398,6 +53448,10 @@ PrefabInstance:
     - target: {fileID: 7220724613818010998, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
       propertyPath: m_Name
       value: SpecialCoins
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305796001009631650, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
+      propertyPath: isCoin
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8305796001009631650, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
       propertyPath: player
