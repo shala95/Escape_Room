@@ -236,8 +236,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7843fb77d49e1842ac4379402ec8269, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testoScritta: {fileID: 2100994543}
+  textDisplay: {fileID: 2100994543}
+  testoScritta: 
   score: 0
+  typingSpeed: 0.1
 --- !u!1 &916835206
 GameObject:
   m_ObjectHideFlags: 0

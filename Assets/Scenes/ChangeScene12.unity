@@ -236,8 +236,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc2857b3d3a1c2c48961f2dd314e7384, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testoScritta: {fileID: 2100994543}
+  textDisplay: {fileID: 2100994543}
+  testoScritta: 
   score: 0
+  typingSpeed: 0.05
 --- !u!1 &712986333
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,6 +711,7 @@ GameObject:
   - component: {fileID: 2100994545}
   - component: {fileID: 2100994544}
   - component: {fileID: 2100994543}
+  - component: {fileID: 2100994546}
   m_Layer: 5
   m_Name: Intro
   m_TagString: Untagged
@@ -832,6 +835,29 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 881}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2100994546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100994542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eb672e1488548740a2dd59a04c530fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 0}
+  tmpProText: {fileID: 2100994543}
+  writer: 
+  delayBeforeStart: 0
+  timeBtwChars: 0.1
+  leadingChar: 
+  leadingCharBeforeDelay: 0
+  startOnEnable: 1
+  clearAtStart: 0
+  startOnCollision: 0
+  collisionExitOptions: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
