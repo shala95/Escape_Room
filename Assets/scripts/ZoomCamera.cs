@@ -3,7 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ZoomCamera : MonoBehaviour
-{
+{   
+    public bool zoomOut=false;
+    public float low=3.5f;
+    public float medium= 2f;
+    public float high=1.5f;
+    public float zoomValue=2.5f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -11,17 +17,22 @@ public class ZoomCamera : MonoBehaviour
         int score = ScoreManager.globalScore;
 
         if (score <= 2) {
-            camera.orthographicSize = 3.5f;
+            camera.orthographicSize = low;
         } else if (score <= 5) {
-            camera.orthographicSize = 2f;
+            camera.orthographicSize = medium;
         } else {
-            camera.orthographicSize = 1.5f;
+            camera.orthographicSize = high;
         }
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (zoomOut){
+
+            GetComponent<Camera>().orthographicSize+=zoomValue;
+            zoomOut=false;
+         }   
         
     }
 }

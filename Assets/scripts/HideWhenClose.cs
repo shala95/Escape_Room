@@ -1,11 +1,19 @@
 using UnityEngine;
 
 public class HideWhenClose : MonoBehaviour
+
 {
     public static int globalCoins=0;
     public Transform target; // The target object that triggers the hiding
     public float hideDistance = 0.001f; // Distance within which the object will be hidden
+    public PlayerController player;
+    public bool increaseSpeed=false;
+    public bool increaseTime=false;
+    public bool zoomOut=false;
 
+    public ZoomCamera zoomCamera;
+
+    public Timer timer;
     private Renderer objectRenderer; // Reference to the Renderer component of the object
 
     void Start()
@@ -24,9 +32,16 @@ public class HideWhenClose : MonoBehaviour
             if (objectRenderer.enabled){
                 objectRenderer.enabled = false;
                 globalCoins++;
-
-
-        }
+                if (increaseTime)  {
+                    timer.remainingDuration += 5;
+                }
+                if (increaseSpeed)  {
+                    player.highSpeedSeconds += 5.0f;
+                }
+                if (zoomOut)  {
+                    zoomCamera.zoomOut = true;
+                }
+            }
         }
         
         
