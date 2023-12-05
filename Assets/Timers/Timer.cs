@@ -115,32 +115,4 @@ public class Timer : MonoBehaviour {
       StopAllCoroutines () ;
    }
    
-   
-   //music part
-   private MusicManager musicManager; // Riferimento al MusicManager
-
-   void Start()
-   {
-      // Trova l'oggetto MusicManager nella scena
-      musicManager = Object.FindFirstObjectByType<MusicManager>();
-
-      // Pausa la musica se il MusicManager è presente
-      if (musicManager != null)
-      {
-         PauseBackgroundMusic();
-      }
-   }
-
-   void PauseBackgroundMusic()
-   {
-      if (musicManager != null)
-      {
-         // Chiama il metodo del MusicManager per mettere in pausa la musica
-         musicManager.PauseMusic();
-      }
-      else
-      {
-         Debug.LogWarning("MusicManager non trovato!");
-      }
-   }
 }

@@ -9,7 +9,7 @@ public class change_text : MonoBehaviour
     public TextMeshProUGUI textDisplay;
     public string testoScritta; // Riferimento al componente Text della scritta
     public int score = ScoreManager.globalScore;
-    public float typingSpeed;
+    public float typingSpeed = 0.025f;
 
     // Start is called before the first frame update
     private void Start()

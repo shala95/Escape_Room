@@ -5,7 +5,7 @@ using UnityEngine;
 public class MusicManager : MonoBehaviour
 {
 
-	private static MusicManager instance = null;
+    private static MusicManager instance = null;
     public AudioClip backgroundMusic; // Assumi che questo sia il tuo file audio
     private AudioSource audioSource;
 
@@ -17,31 +17,37 @@ public class MusicManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
             audioSource = gameObject.AddComponent<AudioSource>();
             audioSource.loop = true;
-            // Imposta il file audio per la riproduzione
             audioSource.clip = backgroundMusic;
-            // Avvia la riproduzione della musica
+            
+            if (!audioSource.isPlaying)
+            {
+                audioSource.Play();
+            }
+        }
+    }
+    public void Play()
+    {
+        if (audioSource != null && !audioSource.isPlaying)
+        {
             audioSource.Play();
         }
-        else
+    }
+
+    public void Pause()
+    {
+        if (audioSource != null && audioSource.isPlaying)
         {
-            Destroy(gameObject);
+            audioSource.Pause();
         }
     }
 
-    // Altri metodi per controllare la riproduzione della musica
-    public void PauseMusic()
+    void UnPause()
     {
-        audioSource.Pause();
+        if (audioSource != null && audioSource.isPlaying && !audioSource.isPlaying)
+        {
+            audioSource.UnPause();
+        }
     }
-
-    public void ResumeMusic()
-    {
-        audioSource.UnPause();
-    }
-
-    public void StopMusic()
-    {
-        audioSource.Stop();
-    }
-    
 }
+
+

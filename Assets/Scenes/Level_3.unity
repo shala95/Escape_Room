@@ -55611,15 +55611,15 @@ PrefabInstance:
       objectReference: {fileID: 1423964320}
     - target: {fileID: 957863053970734397, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.5
+      value: 2.54425
       objectReference: {fileID: 0}
     - target: {fileID: 957863053970734397, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.5
+      value: 2.54425
       objectReference: {fileID: 0}
     - target: {fileID: 957863053970734397, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2
+      value: 2.0354
       objectReference: {fileID: 0}
     - target: {fileID: 957863053970734397, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
       propertyPath: m_LocalPosition.x
@@ -55683,23 +55683,35 @@ PrefabInstance:
       objectReference: {fileID: 960533394}
     - target: {fileID: 3934437891190029834, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.41
+      value: -4.499
       objectReference: {fileID: 0}
     - target: {fileID: 3934437891190029834, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.73
+      value: 2.641
       objectReference: {fileID: 0}
     - target: {fileID: 7220724613818010998, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
       propertyPath: m_Name
       value: SpecialCoins
       objectReference: {fileID: 0}
     - target: {fileID: 7565568566054663542, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.08711384
+      objectReference: {fileID: 0}
+    - target: {fileID: 7565568566054663542, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.09892746
+      objectReference: {fileID: 0}
+    - target: {fileID: 7565568566054663542, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.08409
+      objectReference: {fileID: 0}
+    - target: {fileID: 7565568566054663542, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.17
+      value: -3.143
       objectReference: {fileID: 0}
     - target: {fileID: 7565568566054663542, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.39
+      value: 0.488
       objectReference: {fileID: 0}
     - target: {fileID: 8305796001009631650, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
       propertyPath: isCoin
@@ -55715,11 +55727,11 @@ PrefabInstance:
       objectReference: {fileID: 1423964320}
     - target: {fileID: 8540666307412199160, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.28
+      value: 3.262
       objectReference: {fileID: 0}
     - target: {fileID: 8540666307412199160, guid: c40d38023070b473298cd9ae4d05e924, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.66
+      value: -0.535
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
