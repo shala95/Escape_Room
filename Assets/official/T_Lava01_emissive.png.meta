@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T_Lava01_emissive_0: 1230632826860387006
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

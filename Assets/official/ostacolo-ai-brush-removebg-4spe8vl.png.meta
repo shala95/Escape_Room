@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ostacolo-ai-brush-removebg-4spe8vl_0: 1979296997819640362
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

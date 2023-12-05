@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T_Lava01_metallic_0: -2440066129946562956
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
