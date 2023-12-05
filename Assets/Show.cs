@@ -1,7 +1,6 @@
 using UnityEngine;
 
 public class Show : MonoBehaviour
-
 {
     public int threshold=2;
     public CoinsCount coinsCount;
@@ -9,11 +8,10 @@ public class Show : MonoBehaviour
     {
         int score = ScoreManager.globalScore;
 
-        if (score <= threshold) {
-            coinsCount.maxCoins-=3;
-           Destroy(gameObject);
-            
+        if (score <= threshold) 
+		{
+			coinsCount.maxCoins-=3;
+            Destroy(gameObject);
         } 
     }
-
 }    
