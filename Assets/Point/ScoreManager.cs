@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class ScoreManager : MonoBehaviour
 {
     public static int globalScore = 0; // Questa è la variabile globale del punteggio
+    public  int globalScore_2 = 0;
 
     public void OnButtonClick(string input)
     {
@@ -28,8 +29,9 @@ public class ScoreManager : MonoBehaviour
             globalScore += 3;
         }
 
+        globalScore_2 = globalScore;
         
-
+        
         //SceneManager.LoadScene(input.Split(" ")[1]); //this code splits the string at the space and returns the scene name
         if (SceneManager.GetActiveScene().name == "Quest1"){
             SceneManager.LoadScene("Quest2");
