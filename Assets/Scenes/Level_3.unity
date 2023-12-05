@@ -50862,7 +50862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: Final
-  maxCoins: 46
+  maxCoins: 131
 --- !u!1 &1424069993
 GameObject:
   m_ObjectHideFlags: 0
